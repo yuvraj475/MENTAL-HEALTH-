@@ -165,7 +165,7 @@ from pathlib import Path
 
 
 
-MODEL_PATH = Path(__file__).parent / "social_media_rf_model.pkl"
+MODEL_PATH = Path(__file__).parent / "social_media_rf_model_compressed.pkl"
 
 @st.cache_resource
 def load_model():
